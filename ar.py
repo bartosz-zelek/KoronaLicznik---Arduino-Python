@@ -7,7 +7,7 @@ time.sleep(2)
 while True:
     try:
     	data = pd.read_html('https://www.worldometers.info/coronavirus/')[0]
-    	data = data.loc[data['Country,Other'] == 'Italy']
+    	data = data.loc[data['Country,Other'] == 'Poland']
     	sick = str(int(data['ActiveCases']))
     	deaths = str(int(data['TotalDeaths']))
     except:
