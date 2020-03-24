@@ -16,5 +16,5 @@ while True:
     dataToArduino = sick+','+deaths+"K"
     print(dataToArduino)
     arduino.write(bytes(dataToArduino, 'utf-8'))
-    time.sleep(5)
+    time.sleep(600)
     
