@@ -41,6 +41,6 @@
           lcd.print("Zarazeni: "+data[0]);
           delay(500);
           lcd.setCursor(0,1);
-          lcd.print("Zgony: 0"+data[1]);
+          lcd.print("Zgony: "+data[1]);
         }
     }
