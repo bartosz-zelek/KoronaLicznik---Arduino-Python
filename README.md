@@ -1,3 +1,5 @@
+API has been deleted...
+
 # KoronaLicznik---Arduino-Python
 
 ### Ubuntu instructions
